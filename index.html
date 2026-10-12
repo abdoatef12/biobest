@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>رون كير | العناية بالبشرة وجل الاستحمام والبودي سبلاش</title>
+<meta name="description" content="رون كير: منتجات للعناية بالبشرة، جل استحمام، وبودي سبلاش بعطور تدوم. اكتشف المجموعة الكاملة.">
+<meta name="theme-color" content="#B08A33">
+<meta property="og:title" content="RON Care">
+<meta property="og:description" content="Skin care, shower gels and body splashes. Pure freshness, a scent to remember.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23241A31'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23D9B55E'%3ERON%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Cormorant+Garamond:wght@500;600;700&family=Figtree:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"RON Care","slogan":"Pure Freshness. A Scent to Remember."}
+</script>
+</head>
+<body>
+<a class="skip" href="#collections" data-i18n="skip">انتقل إلى المنتجات</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="RON Care">
+      <span class="logo-ron">RON</span><span class="logo-care">CARE</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#collections" data-i18n="nav.collections">المجموعات</a>
+      <a href="#finder" data-i18n="nav.finder">اختر عطرك</a>
+      <a href="#science" data-i18n="nav.science">المكوّنات</a>
+      <a href="#about" data-i18n="nav.about">عن رون كير</a>
+      <a href="#contact" data-i18n="nav.contact">تواصل</a>
+    </nav>
+    <div class="bar-actions">
+      <button class="lang" id="langBtn" type="button" aria-label="Change language">EN</button>
+      <a class="btn btn-solid btn-sm cta-top" href="#contact" data-i18n="nav.cta">اطلب عرضاً</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-label="RON Care">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 style="--i:0" data-i18n="hero.title">عناية تشعر بها من أول لمسة</h1>
+        <p class="lead" style="--i:1" data-i18n="hero.lead">منتجات للعناية بالبشرة والاستحمام وعطور خفيفة للجسم، صُمّمت لتجعل روتينك اليومي أنعم وأكثر انتعاشاً.</p>
+        <div class="hero-cta" style="--i:2">
+          <a class="btn btn-solid" href="#collections" data-i18n="hero.cta1">اكتشف المجموعة</a>
+          <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">تواصل معنا</a>
+        </div>
+        <div class="hero-now" style="--i:3">
+          <div>
+            <span class="now-type" id="nowType"></span>
+            <strong class="now-name" id="nowName"></strong>
+          </div>
+          <button class="link-btn" id="nowOpen" type="button" data-i18n="hero.details">عرض التفاصيل</button>
+        </div>
+        <div class="rail" id="rail" style="--i:4" role="group" aria-label="Featured products"></div>
+      </div>
+      <div class="hero-stage" id="stage">
+        <div class="halo" aria-hidden="true"></div>
+        <div class="poster-wrap" id="posterWrap"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTS -->
+  <section class="facts" aria-label="Highlights">
+    <div class="wrap facts-grid">
+      <div class="fact"><span class="fact-v">SPF 50+</span><span class="fact-l" data-i18n="fact.1">حماية عالية جداً من UVA وUVB</span></div>
+      <div class="fact"><span class="fact-v">48h</span><span class="fact-l" data-i18n="fact.2">ترطيب يدوم 48 ساعة في اللوشن</span></div>
+      <div class="fact"><span class="fact-v">B5 + E</span><span class="fact-l" data-i18n="fact.3">بانثينول وفيتامين E في جل الاستحمام</span></div>
+      <div class="fact"><span class="fact-v">1 L</span><span class="fact-l" data-i18n="fact.4">عبوات اقتصادية للاستخدام اليومي</span></div>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section class="section" id="collections">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 data-i18n="col.title">المجموعات</h2>
+        <p data-i18n="col.sub">عشرون منتجاً في ثلاث فئات. اضغط على أي منتج لمشاهدة التفاصيل.</p>
+      </div>
+      <div class="chips" id="filters" role="group" aria-label="Filter"></div>
+      <div class="masonry" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- FINDER -->
+  <section class="section dark" id="finder">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 data-i18n="fin.title">اختر عطرك</h2>
+        <p data-i18n="fin.sub">قل لنا ما الإحساس الذي تبحث عنه، وسنقترح عليك المنتجات المناسبة.</p>
+      </div>
+      <div class="finder-controls">
+        <div>
+          <span class="ctl-label" data-i18n="fin.mood">الإحساس</span>
+          <div class="chips chips-dark" id="moodChips" role="group"></div>
+        </div>
+        <div>
+          <span class="ctl-label" data-i18n="fin.format">النوع</span>
+          <div class="chips chips-dark" id="formatChips" role="group"></div>
+        </div>
+      </div>
+      <p class="finder-count" id="finderCount" aria-live="polite"></p>
+      <div class="finder-results" id="finderResults"></div>
+    </div>
+  </section>
+
+  <!-- SCIENCE -->
+  <section class="section science" id="science">
+    <div class="wrap science-grid">
+      <figure class="science-fig">
+        <img id="sciImg" alt="RON Care Face Serum 6 in 1" width="760" height="1014">
+      </figure>
+      <div class="science-body">
+        <div class="sec-head left">
+          <h2 data-i18n="sci.title">ما بداخل العبوة</h2>
+          <p data-i18n="sci.sub">تعرّف على المكوّنات التي تعتمد عليها تركيباتنا ولماذا تُستخدم.</p>
+        </div>
+        <div class="ing">
+          <div class="ing-tabs" id="ingTabs" role="tablist" aria-orientation="vertical"></div>
+          <div class="ing-panel" id="ingPanel" role="tabpanel" aria-live="polite"></div>
+        </div>
+        <p class="note" data-i18n="sci.note">معلومات عامة عن المكوّنات. راجع العبوة لمعرفة التركيبة الكاملة لكل منتج.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <h2 data-i18n="ab.title">طقوس يومية بعطر لا يُنسى</h2>
+        </div>
+        <div class="about-text">
+          <p data-i18n="ab.p1">تبني رون كير منتجاتها حول طقوس بسيطة تتكرر كل يوم: تنظيف، ترطيب، حماية، ثم لمسة عطر تبقى في الذاكرة.</p>
+          <p data-i18n="ab.p2">من سيرم الوجه وجل التنظيف إلى جل الاستحمام والبودي سبلاش، كل منتج له عالمه وألوانه وعطره، لكنه يحمل الوعد نفسه: انتعاش نقي وذكريات لا تُنسى.</p>
+        </div>
+      </div>
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-n" data-count="20">0</span><span class="stat-l" data-i18n="st.1">منتجاً</span></div>
+        <div class="stat"><span class="stat-n" data-count="10">0</span><span class="stat-l" data-i18n="st.2">عطر بودي سبلاش</span></div>
+        <div class="stat"><span class="stat-n" data-count="6">0</span><span class="stat-l" data-i18n="st.3">عطور جل استحمام</span></div>
+        <div class="stat"><span class="stat-n" data-count="4">0</span><span class="stat-l" data-i18n="st.4">منتجات للبشرة</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-intro">
+        <h2 data-i18n="ct.title">لنتحدث</h2>
+        <p data-i18n="ct.sub">للتوزيع أو التعاون مع الصيدليات والمتاجر أو للاستفسار عن أي منتج، اترك رسالتك وسنعود إليك.</p>
+      </div>
+      <form class="form" id="form" novalidate>
+        <div class="field">
+          <label for="fName" data-i18n="f.name">الاسم</label>
+          <input id="fName" name="name" type="text" autocomplete="name" required>
+          <small class="err" data-for="fName"></small>
+        </div>
+        <div class="field">
+          <label for="fCompany" data-i18n="f.company">الشركة أو المتجر</label>
+          <input id="fCompany" name="company" type="text" autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="fContact" data-i18n="f.contact">البريد الإلكتروني أو رقم الهاتف</label>
+          <input id="fContact" name="contact" type="text" autocomplete="email" required>
+          <small class="err" data-for="fContact"></small>
+        </div>
+        <div class="field">
+          <label for="fType" data-i18n="f.type">أنا مهتم بـ</label>
+          <select id="fType" name="type">
+            <option value="dist" data-i18n="f.o1">التوزيع</option>
+            <option value="retail" data-i18n="f.o2">البيع في متجري أو صيدليتي</option>
+            <option value="product" data-i18n="f.o3">الاستفسار عن منتج</option>
+            <option value="other" data-i18n="f.o4">أمر آخر</option>
+          </select>
+        </div>
+        <div class="field wide">
+          <label for="fMsg" data-i18n="f.msg">رسالتك</label>
+          <textarea id="fMsg" name="msg" rows="4" required></textarea>
+          <small class="err" data-for="fMsg"></small>
+        </div>
+        <div class="wide form-foot">
+          <button class="btn btn-solid" type="submit" data-i18n="f.send">إرسال الرسالة</button>
+        </div>
+        <div class="success wide" id="success" hidden role="status"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="logo logo-light" href="#top" aria-label="RON Care"><span class="logo-ron">RON</span><span class="logo-care">CARE</span></a>
+      <p class="foot-tag" data-i18n="ft.tag">نعومة... انتعاش... ذكريات لا تُنسى</p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#collections" data-i18n="nav.collections">المجموعات</a>
+      <a href="#finder" data-i18n="nav.finder">اختر عطرك</a>
+      <a href="#science" data-i18n="nav.science">المكوّنات</a>
+      <a href="#contact" data-i18n="nav.contact">تواصل</a>
+    </nav>
+  </div>
+  <div class="wrap foot-bottom"><span id="copy"></span></div>
+</footer>
+
+<dialog class="pm" id="pm" aria-labelledby="pmName">
+  <button class="pm-close" id="pmClose" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+  </button>
+  <div class="pm-body" id="pmBody"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
